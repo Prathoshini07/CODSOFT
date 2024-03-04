@@ -1,0 +1,100 @@
+html{
+    scroll-behavior: smooth;
+}
+#section1{
+    height=600px;
+}
+.header{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 900px;
+}
+ li{
+    padding-left: 15px;
+    display: inline-block;
+}
+.heading{
+    padding: 2em 10em;
+    padding-left:200px;
+    padding-top:100px;
+    font: normal 40px/50px Montserrat, sans-serif;
+    color: #ffffff;
+}
+.heading b{
+    float: left;
+    overflow: hidden;
+    height: 50px;
+    top: 40px;
+    }
+.heading .inner-heading{
+    display: inline-block;
+    color: #e74c3c;
+    position: relative;
+    white-space: nowrap;
+    top: 0;
+    left: 0;
+
+    -webkit-animation:move 5s;
+    -moz-animation:move 8s;
+    -ms-animation:move 8s;
+    -o-animation:move 8s;
+    animation:move 8s;
+    -webkit-animation-iteration-count:infinite;
+    -moz-animation-iteration-count:infinite;
+    -ms-animation-iteration-count:infinite;
+    -o-animation-iteration-count:infinite;
+    animation-iteration-count:infinite;
+    -webkit-animation-delay:1s;
+    -moz-animation-delay:1s;
+    -ms-animation-delay:1s;
+    -o-animation-delay:1s;
+    animation-delay:1s;
+    }
+    @keyframes move{
+    0%  { top: 0px; }
+    20% { top: -50px; }
+    40% { top: -100px; }
+    60% { top: -150px; }
+    80% { top: -200px; }
+    }
+
+    @-webkit-keyframes move {
+    0%  { top: 0px; }
+    20% { top: -50px; }
+    40% { top: -100px; }
+    60% { top: -150px; }
+    80% { top: -200px; }
+    }
+    @-moz-keyframes move {
+    0%  { top: 0px; }
+    20% { top: -50px; }
+    40% { top: -100px; }
+    60% { top: -150px; }
+    80% { top: -200px; }
+    }
+    @-o-keyframes move {
+    0%  { top: 0px; }
+    20% { top: -50px; }
+    40% { top: -100px; }
+    60% { top: -150px; }
+    80% { top: -200px; }
+    }
+    @keyframes move {
+    0%  { top: 0px; }
+    20% { top: -50px; }
+    40% { top: -100px; }
+    60% { top: -150px; }
+    80% { top: -200px; }
+}
+.content
+{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    padding-left: 200px;
+}
+.content h4{
+    font-size: x-large;
+    color: crimson;
+}
