@@ -2,7 +2,10 @@ html{
     scroll-behavior: smooth;
 }
 #section1{
-    height=600px;
+    height: 730px;
+}
+#section2{
+    height: 730px;
 }
 .header{
     font-family: 'Courier New', Courier, monospace;
