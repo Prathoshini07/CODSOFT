@@ -2,17 +2,22 @@ html{
     scroll-behavior: smooth;
 }
 #section1{
-    height: 730px;
+    height: 740px;
 }
 #section2{
-    height: 730px;
+    height: 740px;
+    display: flex;
+    justify-content: space-between;
+}
+#section3{
+    height:740px;
 }
 .header{
     font-family: 'Courier New', Courier, monospace;
     font-size: larger;
     display: flex;
     justify-content: space-between;
-    padding-left: 900px;
+    padding-left: 800px;
     position: fixed;
 }
  li{
@@ -20,10 +25,12 @@ html{
     display: inline-block;
 }
 .heading{
-    padding: 2em 10em;
     padding-left:200px;
     padding-top:100px;
-    font: normal 40px/50px Montserrat, sans-serif;
+    font-family: "Angkor", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
     color: #ffffff;
 }
 .heading b{
@@ -34,17 +41,17 @@ html{
     }
 .heading .inner-heading{
     display: inline-block;
-    color: #e74c3c;
+    color: #3c3534;
     position: relative;
     white-space: nowrap;
     top: 0;
     left: 0;
 
     -webkit-animation:move 5s;
-    -moz-animation:move 8s;
-    -ms-animation:move 8s;
-    -o-animation:move 8s;
-    animation:move 8s;
+    -moz-animation:move 5s;
+    -ms-animation:move 5s;
+    -o-animation:move 5s;
+    animation:move 5s;
     -webkit-animation-iteration-count:infinite;
     -moz-animation-iteration-count:infinite;
     -ms-animation-iteration-count:infinite;
@@ -95,10 +102,19 @@ html{
 .content
 {
     font-family: 'Courier New', Courier, monospace;
-    font-size: large;
+    font-size: 25px;
     padding-left: 200px;
 }
 .content h4{
-    font-size: x-large;
-    color: crimson;
+    font-size: 30px;
+    color: rgb(57, 48, 50);
+}
+#section2 h2{
+    padding-top: 100px;
+    align-content: center;
+    display:flex ;
+    flex-direction: column;
+}
+#section3 h1{
+    text-align: center;
 }
