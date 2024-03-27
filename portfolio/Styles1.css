@@ -7,7 +7,6 @@ html{
 #section2{
     height: 740px;
     display: flex;
-    justify-content: space-between;
 }
 #section3{
     height:740px;
@@ -109,11 +108,23 @@ html{
     font-size: 30px;
     color: rgb(57, 48, 50);
 }
-#section2 h2{
+#section2 h1{
     padding-top: 100px;
-    align-content: center;
+    align-items: center;
     display:flex ;
     flex-direction: column;
+    justify-content: center;
+}
+#section2 h2{
+    align-items: center;
+    display:flex ;
+    flex-direction: column;
+    justify-content: center;
+}
+#section2 p{
+    display: flex;
+    align-items: left;
+    justify-content: left;
 }
 #section3 h1{
     text-align: center;
